@@ -1,0 +1,17 @@
+'use strict';
+
+import React from 'react';
+import { View } from 'react-native';
+
+import styles from './styles.js';
+
+
+const Card = (props) => {
+  return (
+    <View style={styles.containerStyleCard}>
+      {props.children}
+    </View>
+  );
+};
+
+export default Card;

@@ -1,0 +1,39 @@
+export const FIELD_CHANGED = 'filed_changed';
+export const LOGIN_USER_SUCCESS = 'login_user_success';
+export const LOGIN_USER_FAIL = 'login_user_fail';
+export const LOGIN_USER = 'login_user';
+export const CLEAN_AUTH_FORM = 'clean_auth_form';
+export const REGISTER_USER = 'regsiter_user';
+export const UPDATE_TOKEN = 'update_token';
+export const FETCH_CURRENT_USER = 'fetch_current_user';
+export const LOGOUT_USER = 'logout_user';
+
+export const EVENT_UPDATE = 'event_update';
+export const EVENT_CREATE = 'event_create';
+export const EVENTS_FETCH_SUCCESS = 'events_fetch_success';
+export const EVENT_SAVE_SUCCESS = 'event_save_success';
+export const EVENT_DATA_FETCH_SUCCESS = 'event_data_fetch_success';
+export const EVENT_FORM_FIELD_CHANGED = 'event_form_field_changed';
+export const CLEAN_EVENT_FORM = 'clean_event_form';
+export const EVENT_REGISTER = 'event_register';
+
+export const ORG_UPDATE = 'organization_update';
+export const ORG_UPDATE_FORM = 'organization_update_form';
+export const ORG_CREATE = 'organization_create';
+export const ORGS_FETCH_SUCCESS = 'organizations_fetch_success';
+export const ORGS_SAVE_SUCCESS = 'organization_save_success';
+export const ORG_DATA_FETCH_SUCCESS = 'organization_data_fetch_success';
+export const ORG_EVENTS_FETCH_SUCCESS = 'organization_events_fetch_success';
+export const ORG_FORM_FIELD_CHANGED = 'org_form_field_changed';
+export const CLEAN_ORG_FORM = 'clean_org_form';
+export const ORG_FETCH = 'org_fetch';
+export const ORG_FETCH_FAILURE = 'org_fetch_failure';
+export const ORG_FOLLOW_CHAGE = 'org_follow_change';
+
+export const USER_PROFILE_FETCH_SUCCESS = 'user_profile_fetch_success';
+export const USER_PROFILE_FETCH_FAIL = 'user_profile_fetch_fail';
+export const USER_PROFILE_FETCH = 'user_profile_fetch';
+export const USER_PROFILE_FORM_FIELD_CHANGED = 'user_profile_form_field_changed';
+export const USER_PROFILE_UPDATE_SUCCESS = 'user_profile_update_success';
+export const USER_PROFILE_UPDATE_FAIL = 'user_profile_update_fail';
+export const USER_PROFILE_UPDATE = 'user_profile_update';
